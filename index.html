@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Timer</title>
+  </head>
+  <body>
+    <input id="timers" name="timers" type="text" value="30:Work+5:Pause+30:Work+15:Long Pause"/>
+    <button onclick="createTimers(document.getElementById('timers').value)">Notify me!</button>
+    <button onclick="notifyMe()">Notify me!</button>
+    <!-- Load scripts -->
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src="https://unpkg.com/moment@2.22.2/moment.js"></script>
+    <script type="text/babel" data-presets="es2015,stage-2"></script>
+    <script type="text/babel" src="index.js"></script>
+    <!-- TODO: Notifications -->
+    <!-- script src="notify.js"></script -->
+  </body>
+</html>
